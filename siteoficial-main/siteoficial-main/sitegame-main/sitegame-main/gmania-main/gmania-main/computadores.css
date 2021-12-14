@@ -58,11 +58,19 @@
     flex-direction: row;
 }
 .botao {
-    width: 200px;
-    padding: 30px;
-    text-align: center;
-    margin: auto;
-    background-color: blue;
-    border-radius: 10px 0px 10px 0px;
-    border: solid 1px dashed;
+    display:grid;
+    place-content: center;
+    background-color: darkblue;
+    color: white;
+    padding:2px;
+    margin-left:750px;
+    margin-right: 750px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-transform:none;
+}
+.botao:hover { 
+    background-color: rgb(170, 171, 241);
+    cursor:pointer;
+
 }
